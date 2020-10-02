@@ -35,7 +35,7 @@
 }
 
 .logo {
-  background-image: url(/images/logo_place_header.svg);  
+  background-image: url(../images/logo_place_header.svg);  
   width: 183px;
   height: 32px;
 }
@@ -333,6 +333,7 @@
   border: 1px solid red;
   flex-basis: 711px;
   background-color: #1f1f1f;
+  color: white;
 }
 
 .footer__columns {
@@ -341,14 +342,13 @@
   border: 1px solid red;
   justify-content: space-between;
   margin: 60px auto 40px;
-  color: white;
+
 }
 
 .footer__column {
   border: 1px solid red;
   display: flex;
   flex-direction: column;
-
 }
 
 /* ПЕРВЫЙ БЛОК  */
@@ -358,8 +358,8 @@
 }
 
 .logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
   height: 35px;
-  background-repeat: no-repeat;
 }
 
 .footer__autor {
@@ -378,16 +378,21 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: 700;
-  margin: 0;
+  margin: 0 0 20px;
 }
 
 .footer__column-links {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  list-style-type: none;
-  margin: 20px 0 16px;
+  list-style: none;
+  margin: 0px 0 16px;
   padding: 0;
+  text-decoration: none;  
+  color: white;
+}
+
+.footer__column-links li a {
   text-decoration: none;  
   color: white;
 }
@@ -399,9 +404,6 @@
 }
 
 .footer__social-icon {
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  text-decoration: none;
-  color: white;
+  width: 16px;
+  height: 16px;
 }
