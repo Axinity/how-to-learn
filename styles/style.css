@@ -330,8 +330,6 @@
 .footer {
   display: flex; 
   min-height: 350px;
-  border: 1px solid red;
-  flex-basis: 711px;
   background-color: #1f1f1f;
   color: white;
 }
@@ -339,14 +337,11 @@
 .footer__columns {
   display: flex; 
   width: 90%;
-  border: 1px solid red;
   justify-content: space-between;
   margin: 60px auto 40px;
-
 }
 
 .footer__column {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
 }
@@ -406,4 +401,5 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
+  margin-right: 10px;
 }
