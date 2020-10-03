@@ -75,16 +75,8 @@
 }
 
 .header__main-illustration {
-  width: 765px;
-  height: 608px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
-}
-
-.header__main-illustration1 {
   background-image: url("../images/header-image.png");
+  background-size: cover;
   width: 765px;
   height: 608px;
   position: absolute;
@@ -309,6 +301,8 @@
 }
 
 .kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: cover;
   width: 877px;
   height: 877px;
   position: absolute;
