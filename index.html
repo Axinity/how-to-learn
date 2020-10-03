@@ -73,7 +73,7 @@
         <section class="feynman"> <!-- FEYNMAN Резметка в порядке и CSS -->
           <h2 class="feynman__title">Метод Фейнмана</h2>
           <p class="feynman__subtitle">Выучить и не забыть.</p>
-          <a href="#" class="feynman__link feynman__link_position">Подробнее &rarr;</a>
+          <a href="#" class="feynman__link">Подробнее &rarr;</a>
           <img class="feynman__image" src="./images/feynman.png" alt="Изображение Фейнмана">
         </section>
 
@@ -136,18 +136,18 @@
           <nav class="footer__column footer__column_content_info">
             <h4 class="footer__column-heading">О Практикуме</h4>
             <ul class="footer__column-links">
-              <li><a href="#" class="footer__column-links">Главная</a></li>
-              <li><a href="#" class="footer__column-links">Концепция</a></li>
-              <li><a href="#" class="footer__column-links">Наставники</a></li>
-            </ul>
-          </nav>
-
-          <nav class="footer__column footer__column_content_social">
-            <h4 class="footer__column-heading">Соцсети</h4>
+              <li><a href="#" class="footer__column-link">Главная</a></li>    <!--Александр Семёнов Этот коментарий для вас. Надеюсь вы будете проверять меня снова.-->
+              <li><a href="#" class="footer__column-link">Концепция</a></li>  <!--Тут очень непонятно с правилами нашего курса, либо именно это спринта.   -->
+              <li><a href="#" class="footer__column-link">Наставники</a></li> <!--Изначально были описанны правила проекта Куратором. И там нам ЗАПРЕЩЕННО создовать новые классы-->
+            </ul>                                                             <!--Именно по этому я сначала извращался с селекторами, потому как ставить footer__column-links как на список,-->
+          </nav>                                                              <!--так и не элемент списка это не правильно. Забраковали. В этоге переделал и поставил его везде. Куратор сказал что так хорошо. -->
+                                                                              <!--Отправил и снова брак. Вы мне говорите создать новый класс для элементов списка. Да я бы с радостью это сделал с самого начала, если можно было бы-->
+          <nav class="footer__column footer__column_content_social">          <!--Сейчас установил новый класс, которого нет в брифе. Противоречу правилам проекта, но подстраиваюсь под ваши требования-->
+            <h4 class="footer__column-heading">Соцсети</h4>                   <!--К вам претензий не имею, просто это слишком не понятная ситуация, которая тратит попытки и время-->
              <ul class="footer__column-links">
-              <li><a href="#" class="footer__column-links"><img src="./images/facebook_color_white.svg" alt="Иконка Facebook" class="footer__social-icon">Facebook</a></li>
-              <li><a href="#" class="footer__column-links"><img src="./images/vk_color_white.svg" alt="Иконка ВКонтакте" class="footer__social-icon">ВКонтакте</a></li>
-              <li><a href="#" class="footer__column-links"><img src="./images/instagram_color_white.svg" alt="Иконка Instagram" class="footer__social-icon">Instagram</a></li>
+              <li><a href="#" class="footer__column-link"><img src="./images/facebook_color_white.svg" alt="Иконка Facebook" class="footer__social-icon">Facebook</a></li>
+              <li><a href="#" class="footer__column-link"><img src="./images/vk_color_white.svg" alt="Иконка ВКонтакте" class="footer__social-icon">ВКонтакте</a></li>
+              <li><a href="#" class="footer__column-link"><img src="./images/instagram_color_white.svg" alt="Иконка Instagram" class="footer__social-icon">Instagram</a></li>
              </ul>
           </nav>
 

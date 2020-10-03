@@ -235,9 +235,6 @@
   z-index: 1;
   text-decoration: none;
   color: #000;
-}
-
-.feynman__link_position {
   position: absolute;
   top: 50%;
   right: 48px;
@@ -367,6 +364,9 @@
   list-style: none;
   margin: 0px 0 16px;
   padding: 0;
+}
+
+.footer__column-link {
   text-decoration: none;
   color: white;
 }
